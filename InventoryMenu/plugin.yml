@@ -1,0 +1,14 @@
+name: InventoryMenu
+version: 0.0.1
+main: main.Main
+author: Aurora_cat
+commands:
+   Menu:
+      description: OpenMenu
+      usage: /<command>
+      permission:  Inventory.command.menu
+      permission-message: You don't have <permission>
+      default: true
+permissions:
+   Inventory.command.menu:
+      default: true
